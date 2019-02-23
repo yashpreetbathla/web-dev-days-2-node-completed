@@ -1,7 +1,7 @@
 // [READ] These three lines are used to import the package 'express', create an app using it and also defining a port on which the server will run
 const express = require('express');
 const app = express();
-const port = 8000;
+const port = 8080;
 const cors = require('cors');
 
 app.use(cors());
